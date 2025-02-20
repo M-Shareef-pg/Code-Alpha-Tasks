@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Age Calculator</h1>
+        <div class="input-group">
+            <input type="date" id="birthdate" class="date-input">
+            <button id="calculateBtn" class="calculate-btn">
+                Calculate Age
+                <i class="fas fa-calculator"></i>
+            </button>
+        </div>
+        <div class="result-container">
+            <div class="time-box">
+                <span class="time-label">Years</span>
+                <span id="years" class="time-value">0</span>
+            </div>
+            <div class="time-box">
+                <span class="time-label">Months</span>
+                <span id="months" class="time-value">0</span>
+            </div>
+            <div class="time-box">
+                <span class="time-label">Days</span>
+                <span id="days" class="time-value">0</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
